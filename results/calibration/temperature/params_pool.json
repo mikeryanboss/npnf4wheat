@@ -1,0 +1,76 @@
+{
+  "seasonal": {
+    "base": 10.41393443939824,
+    "amplitude": 9.48221470786483,
+    "phase": 259.6463171959829,
+    "amplitude_2": 0.6177406341409483,
+    "phase_2": 117.33276284517436
+  },
+  "weather": {
+    "ar_coefficient": 0.8043279949833001,
+    "marginal_std": 3.9879845651390764,
+    "anomaly_soft_cap": 9.871188245072881
+  },
+  "site": {
+    "offset_std": 0.50129657095047,
+    "peak_hour_std": 0.33302715839645447,
+    "trough_hour_std": 0.41257000915396125,
+    "seasonal_amp_std": 0.01310433262838422,
+    "phase_shift_std": 0.7265556875069018,
+    "diurnal_winter_loc": 2.678475927769772,
+    "diurnal_winter_std": 0.635458948249724,
+    "diurnal_summer_loc": 8.712330285954373,
+    "diurnal_summer_std": 0.539677416278373,
+    "weather_correlation_min": 0.9414268103703874,
+    "weather_correlation_max": 0.987908863986596,
+    "weather_diurnal_coupling_min": 0.05950514939298167,
+    "weather_diurnal_coupling_max": 0.18189086361719756,
+    "peak_hour_weather_coupling_min": 0.04898467549386442,
+    "peak_hour_weather_coupling_max": 0.3198606777328771,
+    "trough_hour_weather_coupling_min": -0.8234964549825112,
+    "trough_hour_weather_coupling_max": -0.2205566200056258
+  },
+  "year": {
+    "anomaly_std": 0.5347879199880856,
+    "seasonal_amp_std": 0.08420043993984536,
+    "diurnal_amplitude_factor_std": 0.04720951635297416,
+    "peak_hour_shift_std": 0.4099216665254393,
+    "trough_hour_shift_std": 0.5224246289131924
+  },
+  "diurnal": {
+    "seasonal": {
+      "base": 7.847801279488605,
+      "amplitude": 2.74911765107367,
+      "phase": 241.37373158928222,
+      "amplitude_2": 0.9570595239206804,
+      "phase_2": 136.76977692528524
+    },
+    "amplitude": {
+      "siteyear_factor_std": 0.06692922532731825,
+      "siteyear_factor_min": 0.9061271085932339,
+      "siteyear_factor_max": 1.1916984364988634,
+      "daily_noise_std": 0.2524216284404647,
+      "daily_noise_min": 0.46926345474300374,
+      "daily_noise_max": 1.7028282106269237
+    },
+    "timing": {
+      "peak_hour": 14.0,
+      "daily_peak_hour_noise_std": 0.3183621094656345,
+      "daily_peak_hour_noise_min": -3.0,
+      "daily_peak_hour_noise_max": 3.0,
+      "trough_hour": 5.0,
+      "daily_trough_hour_noise_std": 0.4349687895035709,
+      "daily_trough_hour_noise_min": -5.0,
+      "daily_trough_hour_noise_max": 2.0
+    },
+    "shape": {
+      "rise_exponent_winter": 1.0437499203136291,
+      "rise_exponent_summer": 0.7538950805005754,
+      "fall_exponent_winter": 0.508526788604227,
+      "fall_exponent_summer": 0.7683851304074683
+    }
+  },
+  "output": {
+    "measurement_noise_std": 0.3
+  }
+}
